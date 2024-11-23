@@ -14,4 +14,9 @@ contract LuisToken is ERC20, Ownable {
     function destroyTokens(uint256 quantity) public {
         _burn(_msgSender(), quantity);
     }
+    
+    function transfer(address recipient, uint256 amount) public override returns (bool) {
+        require(balanceOf(_msgSender()) >= amount, "Insufficient balance");
+        return super.transfer(recipient, amount); 
+    }
 }
