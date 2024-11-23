@@ -1,6 +1,6 @@
 # Metacrafters_TypesofFunctions
 
-DelaCruz_Token.sol
+DelaCruz_token.sol
 
 This contract is simple, flexible, and secure, making it suitable for a wide variety of token-based applications, such as utility tokens, governance tokens, or reward systems.
 
