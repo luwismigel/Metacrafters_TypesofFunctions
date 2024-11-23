@@ -10,6 +10,7 @@ Features:
 -Minting
 -Burning
 -Ownership Management
+
 *Added Transfer function
 
 Note:
